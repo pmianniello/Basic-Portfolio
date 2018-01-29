@@ -1,0 +1,38 @@
+body    {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    
+}
+
+
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#nametag {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+   
+}
+
+.connect {
+        
+        border: 3px solid black;
+        align-items: center;
+
+
+
+#contactme  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
