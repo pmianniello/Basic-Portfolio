@@ -19,18 +19,28 @@
     <div id="connect">
 
                 <h2>Connect With Me</h2>        
-                    <li><img src="assets/github.png" height="60px" width="60px"></li>        
-                    <li><img src="assets/linkedin.png" height="60px" width="60px"></li>        
-                    <li><img src="assets/stackoverflow.png" height="60px" width="60px"></li>
+                    <li><img src="assets/images/github.png" height="60px" width="60px"></li>        
+                    <li><img src="assets/images/linkedin.png" height="60px" width="60px"></li>        
+                    <li><img src="assets/images/stackoverflow.png" height="60px" width="60px"></li>
     </div>
 
     <div id "contactme">
-        <form action="p.ianniello@gmail.com" method="post">
-            <div class="form">
-                <label for "name">Name</label>
-                    <input type="text"
+        <form action="mailto:p.ianniello@gmail.com" method="post">
 
-            </div>
+                    <div id="namebox">
+                        <label for "name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+
+                    <div id="emailbox">
+                        <label for "emailbox">Email</label>
+                        <input type="email" id="email" name="con-email">
+                    </div>
+                    
+                    <div id="message">
+                        <label for "message">Message</label>
+                        <textarea id="con-message" name="con-message"></textarea>
+                    </div>
 
 
         </form>
