@@ -1,6 +1,8 @@
 body    {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: url('assets/images/dust_scratched.png');
+    background-attachment: fixed;
+    enable-background: unset;
+    background-image: url("images/dust_scratches.png")
 
 }
 
