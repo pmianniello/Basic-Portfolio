@@ -3,7 +3,7 @@ body    {
     background-attachment: fixed;
     enable-background: unset;
     background-image: url("images/dust_scratches.png");
-    
+    max-width: 960px;
 
 }
 
@@ -13,39 +13,47 @@ ul  {
 
 
 #navbar {
+    text-decoration-style: none;
+    color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     color: white;
+    position: 400px;
     
 
 
 }
 
 #nametag {
+    color: white;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;    
     padding-right: 75%;
     background-color: #4aaaa5;
-    text-decoration-color: white;
     display: block;
+    max-width: 300px;
+    border: white;
+    padding: 1%;
+
 }
 
 .connect {
-        text-align: center;     
-        border: 1px solid black;
-        align-items: center;
-        box-shadow: #6d5959;
-        float: right;
-        position: relative;
-        max-width: 260px;
-        padding: 5px;
+    color: #4aaaa5;
+    text-align: center;     
+    border: 1px solid black;
+    align-items: center;
+    box-shadow: #6d5959;
+    float: right;
+    position: relative;
+    max-width: 260px;
+    padding: 5px;
 
 }
 
 
 
 #aboutme {
-    
+    color: #777777;
     text-align: left;
     text-decoration-color: #4aaaa5;
 }
@@ -66,14 +74,26 @@ ul  {
     max-width: 60%;
 }
 
+h1  {
+   text-align: left;
+}
+
 h2 {
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
 }
 
+h3{
+    color: white;
+    float: left;
+    text-align: left;
+    position: relative;
+}   
 
 #footer  {
+    color: white;
     background-color: #666666;
     position: absolute;
     width: 100%;
@@ -85,6 +105,8 @@ h2 {
 
 #copyright  {
     text-decoration-color: white;
+    padding-top: 10px;
 
 
 }
+
