@@ -67,6 +67,7 @@ ul  {
 #contactme  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    float: right;
 
 }
 
@@ -79,7 +80,7 @@ h1  {
 }
 
 h2 {
-    background-color: white;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
@@ -92,6 +93,36 @@ h3{
     position: relative;
 }   
 
+#namebox    {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#message    {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#emailbox   {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.portimg    {
+    display: grid;
+}
+
+#pim1   {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    
+}
+
 #footer  {
     color: white;
     background-color: #666666;
@@ -101,6 +132,8 @@ h3{
     bottom: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    border-top: #4aaaa5 solid;
+    border-width: 10px
 }
 
 #copyright  {
